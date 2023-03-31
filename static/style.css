@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin:0px 14px;
+    margin-right:40px;
+    font-size: 20px;
+}
+
+#logo img{
+    height: 35px;
+    /* filter: invert(1);  it is used to conveet the colouer to white */
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Delicious Handrawn', cursive;
+    padding: 18px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    font-size: 30px;
+   text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Alkatra', cursive;
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+
+#missionSection{
+    height: 380px;
+    width: 67%;
+    margin: auto;
+    display: block;
+}
+
+#missionSection h2{
+    font-size: 50px;
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+    padding-top: 14px;
+}
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 5px 8px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 14px;
+    
+}
+
+.card-content p{
+    font-size: 15px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 23px 23px;
+    width: 25%;
+    height: 210px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.card h3{
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    margin: 0px 12px;
+}
+
+#sponsorsSection h2{
+    font-size: 52px;
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#sponsors{
+    height: 200px;
+    max-width: 1000px;
+    margin:14px auto;
+}
+.spImage{
+    height: 60%;
+    margin:20px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Delicious Handrawn', cursive;
+}
